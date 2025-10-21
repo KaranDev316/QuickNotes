@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+.input {
+  height: 24px;
+  width: 500px;
+}
+
+button {
+  border: none;
+  background-color: rgb(24, 239, 24);
+  color: aliceblue;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+}
