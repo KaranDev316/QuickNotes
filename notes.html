@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notes</title>
     <link rel="stylesheet" href="notes.css" />
+    <script src="notes.js"></script>
   </head>
   <body>
-    <h2>NOTES</h2>
-    <input class="input" type="text" placeholder="Enter notes" />
-    <button onclick="addData()">Add</button>
-    <p class="js-ouput"></p>
-    <script src="notes.js"></script>
+    <main>
+      <h2>NOTES</h2>
+      <input
+        class="input"
+        id="input-js"
+        type="text"
+        placeholder="Enter notes"
+      />
+      <button onclick="addData()">Add</button>
+      <div class="js-output"></div>
+    </main>
   </body>
 </html>
