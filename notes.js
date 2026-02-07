@@ -11,6 +11,14 @@ function addData() {
   }
 }
 
+function handleAddData(event){
+  if(event.key === 'Enter'){
+      addData();
+  }
+  
+  
+}
+
 function displayNotes() {
   let output = document.querySelector(".js-output");
   output.innerHTML = ""; // Clear previous notes

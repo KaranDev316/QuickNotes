@@ -2,10 +2,16 @@ body {
   text-align: center;
 }
 
+.headig{
+   margin-top: 100px;
+}
+
+
 .input {
   height: 24px;
   width: 500px;
 }
+
 
 button {
   border: none;

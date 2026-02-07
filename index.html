@@ -9,12 +9,13 @@
   </head>
   <body>
     <main>
-      <h2>NOTES</h2>
+      <h2 class="heading">NOTES</h2>
       <input
         class="input"
         id="input-js"
         type="text"
-        placeholder="Enter notes"
+        placeholder="Enter a note...."
+        onkeydown="handleAddData(event)"
       />
       <button onclick="addData()">Add</button>
       <div class="js-output"></div>
