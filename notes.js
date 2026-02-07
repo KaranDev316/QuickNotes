@@ -24,7 +24,20 @@ function displayNotes() {
   output.innerHTML = ""; // Clear previous notes
 
   notesList.forEach((note, index) => {
-    output.innerHTML += `<p>${note} <button class="delete-btn" onclick="deleteItem(${index})">Delete</button></p>`;
+    output.innerHTML += `
+       <div class="to-do-list">
+          <div><p>${note}</p> </div>
+
+           <div> 
+              <button class="delete-btn" 
+                onclick="deleteItem(${index})">
+                Delete
+                </button>
+                
+            </div> 
+       </div>
+            `;
+        
   });
 }
 
